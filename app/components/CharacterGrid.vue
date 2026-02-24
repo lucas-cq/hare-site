@@ -25,7 +25,7 @@ const characters = [
 </script>
 
 <template>
-  <section class="bg-black py-20 px-4 border-t border-gray-900">
+  <section id="character-grid" class="bg-black py-20 px-4 border-t border-gray-900">
     <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
       
       <div 

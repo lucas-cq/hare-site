@@ -30,9 +30,12 @@
           <div class="absolute inset-0 bg-white opacity-0 group-hover:opacity-20 animate-pulse"></div>
         </a>
         
-        <button class="px-8 py-4 border border-gray-500 text-gray-300 hover:text-white hover:border-white uppercase tracking-widest transition-colors font-mono">
+        <a 
+          href="#character-grid"
+          class="px-8 py-4 border border-gray-500 text-gray-300 hover:text-white hover:border-white uppercase tracking-widest transition-colors font-mono inline-block"
+        >
           Read Classified Files
-        </button>
+        </a>
       </div>
     </div>
   </section>

@@ -1,6 +1,6 @@
 <script setup>
 useHead({
-  title: 'HARE | The Series (2026)',
+  title: 'HARE | The Series',
   meta: [
     { name: 'description', content: 'Something dangerous lies in the deep. Official site for the Hare animated series.' },
     { name: 'theme-color', content: '#000000' }
