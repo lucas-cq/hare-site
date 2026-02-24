@@ -12,6 +12,7 @@ useHead({
   meta: [
     { name: 'viewport', content: 'width=device-width, initial-scale=1' },
     { name: 'theme-color', content: '#000000' }, // Sets mobile browser header color to black
+    { property: 'og:image', content: '/images/og-share-image.jpg' } // Replace with a screenshot from the trailer
     { 
       name: 'description', 
       content: 'Something dangerous lies in the deep. Explore the classified files of HARE, a post-apocalyptic animated series by Bloody Hare Studio.' 
