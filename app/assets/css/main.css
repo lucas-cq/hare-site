@@ -1,0 +1,13 @@
+/* assets/css/main.css */
+@import "tailwindcss";
+
+/* Since v4, you can configure your theme variables right here in CSS! 
+   This matches the "Hare" aesthetic we discussed:
+*/
+@theme {
+  --color-hare-red: #d02020;
+  --color-lab-green: #1a2e1a;
+  
+  --font-display: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
