@@ -1,8 +1,8 @@
 <template>
-  <section class="relative h-screen w-full overflow-hidden flex items-center justify-center">
+  <section class="relative h-[75vh] md:h-screen w-full overflow-hidden flex items-center justify-center">
     <div class="absolute inset-0 z-0">
       <iframe 
-        class="w-full h-full scale-150 object-cover opacity-60 grayscale hover:grayscale-0 transition-all duration-700"
+        class="absolute top-1/2 left-1/2 w-[100vw] h-[56.25vw] min-h-[100vh] min-w-[177.77vh] -translate-x-1/2 -translate-y-1/2 opacity-60 grayscale hover:grayscale-0 transition-all duration-700"
         src="https://www.youtube.com/embed/DToYYy4uyyY?autoplay=1&mute=1&controls=0&loop=1&playlist=DToYYy4uyyY&start=10" 
         frameborder="0" 
         allow="autoplay; encrypted-media" 
@@ -12,15 +12,17 @@
 
     <div class="absolute inset-0 bg-gradient-to-b from-black/80 via-transparent to-[#0a0a0a] z-10 pointer-events-none"></div>
 
-    <div class="relative z-20 text-center px-4 max-w-4xl mx-auto mt-20">
-      <h1 class="text-6xl md:text-9xl font-black text-white tracking-tighter uppercase mb-2 drop-shadow-lg glitch-text">
-        HARE
-      </h1>
-      <p class="text-xl md:text-2xl text-gray-300 font-mono mb-8 tracking-widest uppercase">
+    <div class="relative z-20 text-center px-4 max-w-4xl mx-auto mt-10 md:mt-20">
+      <img 
+        src="/images/logo-fade.png" 
+        alt="HARE" 
+        class="w-64 md:w-96 mx-auto mb-6 md:mb-8 drop-shadow-2xl"
+      />
+      <p class="text-xl md:text-2xl text-gray-300 font-mono mb-6 md:mb-8 tracking-widest uppercase">
         PRODUCED BY BLOODY HARE STUDIO
       </p>
 
-      <div class="flex flex-col md:flex-row gap-6 justify-center">
+      <div class="flex flex-col md:flex-row gap-4 md:gap-6 justify-center">
         <a 
           href="https://www.youtube.com/watch?v=DToYYy4uyyY" 
           target="_blank"
