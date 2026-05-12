@@ -2,15 +2,21 @@
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineNuxtConfig({
-  compatibilityDate: "2026-01-01", // Or your current date
-  
-  // 1. Add your CSS file path here (we will create this next)
+  compatibilityDate: "2026-01-01",
+
   css: ['~/assets/css/main.css'],
 
   vite: {
     plugins: [
-      // 2. Add the Tailwind Vite plugin
       tailwindcss(),
     ],
+  },
+
+  // META_PIXEL_ID: add this to your .env file locally, and to Vercel environment variables in production.
+  // Get your Pixel ID from: https://business.facebook.com/events_manager2
+  runtimeConfig: {
+    public: {
+      metaPixelId: process.env.META_PIXEL_ID || '',
+    }
   },
 });
