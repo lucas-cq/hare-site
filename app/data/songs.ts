@@ -36,7 +36,7 @@ export const songs: SongConfig[] = [
     title: 'Say to My God',
     artist: 'Bloody Hare Studio',
     albumArt: '/images/say-to-my-god-cover.jpg',
-    spotifyUrl: 'https://open.spotify.com/artist/3Hm9AH9sEnIjQmgkcSS1Or',
+    spotifyUrl: 'https://open.spotify.com/track/5Fyqx9kNR7E1Fe7i1YhkK3',
     youtubeVideoUrl: 'https://www.youtube.com/@BloodyHareStudio',
   },
 ]
