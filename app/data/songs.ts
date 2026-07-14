@@ -37,6 +37,6 @@ export const songs: SongConfig[] = [
     artist: 'Bloody Hare Studio',
     albumArt: '/images/say-to-my-god-cover.jpg',
     spotifyUrl: 'https://open.spotify.com/track/5Fyqx9kNR7E1Fe7i1YhkK3',
-    youtubeVideoUrl: 'https://www.youtube.com/@BloodyHareStudio',
+    youtubeVideoUrl: 'https://www.youtube.com/watch?v=CvEjAI0ugOw',
   },
 ]
