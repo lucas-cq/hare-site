@@ -33,9 +33,9 @@ export const songs: Song[] = [
     slug: 'say-to-my-god',
     title: 'Say To My God',
     artist: 'Bloody Hare Studio',
-    albumArt: '/images/daniel-spot.png',
-    spotifyUrl: 'https://open.spotify.com/artist/bloodyharestudio',
-    youtubeVideoUrl: 'https://www.youtube.com/@BloodyHareStudio',
+    albumArt: '/images/say-to-my-god-cover.jpg',
+    spotifyUrl: 'https://open.spotify.com/track/5Fyqx9kNR7E1Fe7i1YhkK3',
+    youtubeVideoUrl: 'https://www.youtube.com/watch?v=CvEjAI0ugOw',
   },
 ]
 
