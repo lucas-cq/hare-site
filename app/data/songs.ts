@@ -37,6 +37,14 @@ export const songs: Song[] = [
     spotifyUrl: 'https://open.spotify.com/track/5Fyqx9kNR7E1Fe7i1YhkK3',
     youtubeVideoUrl: 'https://www.youtube.com/watch?v=CvEjAI0ugOw',
   },
+  {
+    slug: 'summertime-affair',
+    title: 'Summer Time Affair (Reggae Funkified)',
+    artist: 'Bloody Hare Studio',
+    albumArt: '/images/summertime-affair-cover.jpg',
+    spotifyUrl: 'https://open.spotify.com/artist/3Hm9AH9sEnIjQmgkcSS1Or',
+    youtubeVideoUrl: 'https://www.youtube.com/watch?v=b-BrURs_bzc',
+  },
 ]
 
 export function getSongBySlug(slug: string): Song | undefined {
