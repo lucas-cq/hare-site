@@ -45,6 +45,14 @@ export const songs: Song[] = [
     spotifyUrl: 'https://open.spotify.com/artist/3Hm9AH9sEnIjQmgkcSS1Or',
     youtubeVideoUrl: 'https://www.youtube.com/watch?v=b-BrURs_bzc',
   },
+  {
+    slug: 'holy-holy-holy',
+    title: 'Holy Holy Holy',
+    artist: 'Bloody Hare Studio',
+    albumArt: '/images/holy-holy-holy-cover.jpg',
+    spotifyUrl: 'https://open.spotify.com/track/0YwrpLAUuF5T4T3n3miz5q',
+    youtubeVideoUrl: 'https://www.youtube.com/watch?v=7eoXTciqg8k',
+  },
 ]
 
 export function getSongBySlug(slug: string): Song | undefined {
