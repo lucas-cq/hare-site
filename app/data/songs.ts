@@ -17,9 +17,9 @@ export const songs: Song[] = [
     slug: 'adonis',
     title: 'Adonis',
     artist: 'Bloody Hare Studio',
-    albumArt: '/images/daniel-spot.png',
-    spotifyUrl: 'https://open.spotify.com/artist/bloodyharestudio',
-    youtubeVideoUrl: 'https://www.youtube.com/@BloodyHareStudio',
+    albumArt: '/images/adonis-cover.jpg',
+    spotifyUrl: 'https://open.spotify.com/track/111MVPJbJlluBZaK4YMQiN',
+    youtubeVideoUrl: 'https://www.youtube.com/watch?v=0g8x7vZ7CSQ',
   },
   {
     slug: 'soaring',
@@ -52,6 +52,14 @@ export const songs: Song[] = [
     albumArt: '/images/holy-holy-holy-cover.jpg',
     spotifyUrl: 'https://open.spotify.com/track/0YwrpLAUuF5T4T3n3miz5q',
     youtubeVideoUrl: 'https://www.youtube.com/watch?v=7eoXTciqg8k',
+  },
+  {
+    slug: 'this-disease',
+    title: 'This Disease',
+    artist: 'Bloody Hare Studio',
+    albumArt: '/images/this-disease-cover.jpg',
+    spotifyUrl: 'https://open.spotify.com/track/5F5yvK6GMgCbnrbpNdxVlb',
+    youtubeVideoUrl: 'https://www.youtube.com/watch?v=RayaouS-9U4',
   },
 ]
 
