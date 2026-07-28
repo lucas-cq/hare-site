@@ -25,9 +25,9 @@ export const songs: Song[] = [
     slug: 'soaring',
     title: 'Soaring',
     artist: 'Bloody Hare Studio',
-    albumArt: '/images/daniel-spot.png',
-    spotifyUrl: 'https://open.spotify.com/artist/bloodyharestudio',
-    youtubeVideoUrl: 'https://www.youtube.com/@BloodyHareStudio',
+    albumArt: '/images/soaring-cover.jpg',
+    spotifyUrl: 'https://open.spotify.com/track/6x0cfVDdVl6wJAzBaUNiC3',
+    youtubeVideoUrl: 'https://www.youtube.com/watch?v=JvQcWWi_vQE',
   },
   {
     slug: 'say-to-my-god',
