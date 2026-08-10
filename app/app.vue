@@ -1,9 +1,9 @@
 <script setup lang="ts">
 // Global Head Configuration
 useHead({
-  // This sets a dynamic title. If a page has a title, it adds " - HARE" to the end.
+  // Use the page title when a page sets one, otherwise fall back to the site name.
   titleTemplate: (titleChunk) => {
-    return 'HARE | The Animated Series';
+    return titleChunk ? titleChunk : 'HARE | The Animated Series';
   },
   htmlAttrs: {
     lang: 'en',
