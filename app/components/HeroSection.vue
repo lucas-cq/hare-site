@@ -2,7 +2,7 @@
   <section class="relative h-[75vh] md:h-screen w-full overflow-hidden flex items-center justify-center">
     <div class="absolute inset-0 z-0">
       <iframe 
-        class="absolute top-1/2 left-1/2 w-[100vw] h-[56.25vw] min-h-[100vh] min-w-[177.77vh] -translate-x-1/2 -translate-y-1/2 opacity-60 grayscale hover:grayscale-0 transition-all duration-700"
+        class="absolute top-1/2 left-1/2 w-[100vw] h-[56.25vw] min-h-[100vh] min-w-[177.77vh] -translate-x-1/2 -translate-y-1/2 opacity-60 grayscale pointer-events-none"
         src="https://www.youtube.com/embed/DToYYy4uyyY?autoplay=1&mute=1&controls=0&loop=1&playlist=DToYYy4uyyY&start=10" 
         frameborder="0" 
         allow="autoplay; encrypted-media" 
@@ -24,20 +24,19 @@
 
       <div class="flex flex-col md:flex-row gap-4 md:gap-6 justify-center">
         <a 
-          href="https://www.youtube.com/watch?v=DToYYy4uyyY" 
+          href="https://www.youtube.com/playlist?list=PL2Q5Ujxx572MKTeniMmvp_vgXK8wO0uup" 
           target="_blank"
           class="group relative px-8 py-4 bg-[#d02020] hover:bg-[#ff0000] text-white font-bold text-lg uppercase tracking-widest transition-all clip-path-slant"
         >
-          <span class="relative z-10">Watch Trailer</span>
+          <span class="relative z-10">Official Youtube Playlist</span>
           <div class="absolute inset-0 bg-white opacity-0 group-hover:opacity-20 animate-pulse"></div>
         </a>
         
-        <a 
-          href="#character-grid"
+        <NuxtLink
+          to="/read"
           class="px-8 py-4 border border-gray-500 text-gray-300 hover:text-white hover:border-white uppercase tracking-widest transition-colors font-mono inline-block"
-        >
-          Read Classified Files
-        </a>
+        >Read the Story
+        </NuxtLink>
       </div>
     </div>
   </section>
