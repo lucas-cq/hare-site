@@ -124,7 +124,7 @@ useHead(() => ({
             </a>
           </div>
         </div>
-        <div class="watch">
+        <div v-if="c.ytEs" class="watch">
           <span class="watchlang" lang="es">Español</span>
           <div class="watchbtns">
             <a class="bevel yt" :href="`https://www.youtube.com/watch?v=${c.ytEs}`" target="_blank" rel="noopener">
@@ -140,7 +140,7 @@ useHead(() => ({
           {{ label(next) }} &rsaquo;
         </NuxtLink>
         <span v-else class="bevel steel" style="cursor:default;opacity:.55">
-          {{ isEs ? 'Capítulo 3. La Caravana del General' : 'Chapter 3. The General’s Motorcade' }}
+          {{ isEs ? 'Capítulo 4.' : 'Chapter 4.' }}
         </span>
       </div>
 
